@@ -1,6 +1,6 @@
 ![GitHub License](https://img.shields.io/github/license/ericaviana12/Programacao?style=flat-square)
 
-## Programação
+## Programacao
 Repositório para estudo de linguagens de programação
 
 ## Autora
