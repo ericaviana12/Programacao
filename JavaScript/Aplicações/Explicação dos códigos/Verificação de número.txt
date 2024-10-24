@@ -1,0 +1,15 @@
+Explicação detalhada dos principais itens usados
+    
+Bibliotecas:
+- readline-sync: Usada para capturar a entrada de dados pelo usuário no terminal.
+- colors: Utilizada para exibir o resultado com cores no console.
+
+Estrutura:
+    Variáveis:
+        numero: armazena o número inserido pelo usuário.
+    Entrada:
+        Utiliza input.question() da biblioteca readline-sync para ler o número fornecido pelo usuário.
+    Processamento:
+        A verificação se o número é par ou ímpar é feita com a operação % (módulo). Se o resto da divisão por 2 for 0, o número é par.
+    Saída:
+        O resultado é exibido usando console.log(), com a cor verde (.green) se o número for par e vermelha (.red) se for ímpar.
