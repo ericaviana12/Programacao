@@ -1,0 +1,126 @@
+Elementos da linguagem HTML - Acessibilidade e interação
+______________________________________________________________________
+
+<details> - Cria um elemento que pode ser expandido ou recolhido, geralmente utilizado para mostrar ou ocultar informações adicionais.
+
+Exemplo:
+
+<details>
+  <summary>Mais Informações</summary>
+  <p>Este é o conteúdo oculto que aparece ao expandir.</p>
+</details>
+
+______________________________
+
+<summary> - Define um resumo ou título para um elemento <details>. É sempre visível e pode ser clicado para expandir ou recolher o conteúdo.
+
+Exemplo:
+
+<details>
+  <summary>Leia mais sobre nós</summary>
+  <p>Temos uma longa história e muitos serviços para oferecer.</p>
+</details>
+
+______________________________
+
+<dialog> - Representa uma caixa de diálogo que pode ser usada para interações do usuário, como confirmações ou entradas de dados.
+
+Exemplo:
+
+<dialog id="meuDialogo">
+  <form method="dialog">
+    <p>Deseja continuar?</p>
+    <menu>
+      <button>Sim</button>
+      <button>Não</button>
+    </menu>
+  </form>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("meuDialogo");
+  dialog.showModal(); // Exibe a caixa de diálogo
+</script>
+
+______________________________
+
+<canvas> - Desenhar gráficos e animações dinâmicas via JavaScript. Ele fornece uma área retangular em que você pode desenhar e manipular imagens, formas e textos.
+
+Exemplo:
+
+<canvas id="meuCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+<script>
+  const canvas = document.getElementById('meuCanvas');
+  const context = canvas.getContext('2d');
+  context.fillStyle = 'red';
+  context.fillRect(20, 20, 150, 50); // Desenha um retângulo vermelho
+</script>
+
+______________________________
+
+<template> - Bloco de código que pode ser usado para armazenar conteúdo que não será renderizado até que seja explicitamente instanciado usando JavaScript. É útil para criar elementos que serão clonados ou reutilizados.
+
+Exemplo:
+
+<template id="minhaTemplate">
+  <p>Este é um conteúdo que será inserido dinamicamente!</p>
+</template>
+
+<div id="container"></div>
+<script>
+  const template = document.getElementById('minhaTemplate');
+  const clone = document.importNode(template.content, true);
+  document.getElementById('container').appendChild(clone); // Adiciona o conteúdo do template
+</script>
+
+______________________________
+
+<slot> - Usado dentro de componentes Web (web components) para definir um espaço onde o conteúdo externo pode ser inserido. Ele permite que elementos pais forneçam conteúdo a elementos filhos personalizados.
+
+Exemplo:
+
+<template id="meuComponente">
+  <div>
+    <h2>Título do Componente</h2>
+    <slot></slot> <!-- Espaço para conteúdo externo -->
+  </div>
+</template>
+
+<script>
+  class MeuComponente extends HTMLElement {
+    constructor() {
+      super();
+      const template = document.getElementById('meuComponente').content;
+      const shadowRoot = this.attachShadow({ mode: 'open' }).appendChild(template.cloneNode(true));
+    }
+  }
+  customElements.define('meu-componente', MeuComponente);
+</script>
+
+<meu-componente>
+  <p>Este é o conteúdo inserido no slot!</p>
+</meu-componente>
+
+______________________________
+
+<menu> - Utilizado para definir um menu de comandos ou uma lista de opções disponíveis para o usuário. Em contextos de formulários, ele pode incluir opções que são relevantes para a interação.
+
+Exemplo:
+
+<menu>
+  <li><button>Abrir</button></li>
+  <li><button>Salvar</button></li>
+  <li><button>Fechar</button></li>
+</menu>
+
+______________________________
+
+<menuitem> - Representa um item em um menu de contexto. Este elemento pode ser usado dentro de um <menu> para definir opções que o usuário pode selecionar (não suportado em todos os navegadores).
+
+Exemplo:
+
+<menu>
+  <menuitem label="Copiar" onclick="alert('Copiado!')"></menuitem>
+  <menuitem label="Colar" onclick="alert('Colado!')"></menuitem>
+  <menuitem label="Recortar" onclick="alert('Recortado!')"></menuitem>
+</menu>
