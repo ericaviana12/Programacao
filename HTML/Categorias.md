@@ -1,10 +1,9 @@
 # Categorias dos elementos do HTML
 
-<br>
+
 - Organização de Documento
 <p>Organizam o layout e a estrutura, definindo a base de uma página HTML. Eles ajudam a organizar o conteúdo de forma lógica e dão suporte aos navegadores para renderizar a página corretamente. São essenciais para definir o documento, o cabeçalho com metadados e o corpo do conteúdo.
-<br>
-<br>
+
 - Estrutura de Conteúdo
 <p>Estruturam e descrevem o propósito do conteúdo da página de forma mais intuitiva e acessível, indicando a função de cada parte, como cabeçalhos, rodapés e seções principais. Isso facilita a interpretação tanto para o usuário quanto para os motores de busca e leitores de tela.</p>
 <br>
