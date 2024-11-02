@@ -1,0 +1,116 @@
+Elementos da linguagem HTML - Estrutura de conteúdo
+______________________________________________________________________
+
+<header> - Define o cabeçalho de uma página ou seção, geralmente contendo o logotipo, título e navegação.
+
+Exemplo:
+
+<header>
+  <h1>Minha Página</h1>
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+______________________________
+
+<nav> - Define um bloco de navegação, geralmente contendo links para outras partes do site.
+
+Exemplo:
+
+<nav>
+  <ul>
+    <li><a href="#home">Início</a></li>
+    <li><a href="#produtos">Produtos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+______________________________
+
+<section> - Define uma seção de conteúdo na página, como uma seção de produtos ou uma galeria.
+
+Exemplo:
+
+<section id="sobre">
+  <h2>Sobre Nós</h2>
+  <p>Somos uma empresa dedicada à inovação.</p>
+</section>
+
+______________________________
+
+<article> - Define um conteúdo independente e autocontido, como um post de blog ou um artigo de notícias.
+
+Exemplo:
+
+<article>
+  <h2>Título do Artigo</h2>
+  <p>Este é o conteúdo do artigo, que é independente do restante da página.</p>
+</article>
+
+______________________________
+
+<aside> - Contém conteúdo adicional ou complementar, mas que não é essencial para a compreensão do documento, como uma barra lateral ou uma nota.
+
+Exemplo:
+
+ <aside>
+  <h3>Posts Relacionados</h3>
+  <ul>
+    <li><a href="#post1">Post 1</a></li>
+    <li><a href="#post2">Post 2</a></li>
+  </ul>
+</aside>
+
+______________________________
+
+<footer> - Define o rodapé de uma página ou seção, geralmente contendo informações de copyright ou links de política de privacidade.
+
+Exemplo:
+
+<footer>
+  <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+</footer>
+
+______________________________
+
+<main> - Representa o conteúdo principal do documento, que é exclusivo para esse documento. Deve haver apenas um <main> por página.
+
+Exemplo:
+
+<main>
+  <h1>Bem-vindo ao nosso site!</h1>
+  <p>Este é o conteúdo principal da página.</p>
+</main>
+
+______________________________
+
+<div> - Um contêiner genérico para agrupar elementos em blocos, útil para aplicar estilos ou organizar o layout.
+
+Exemplo:
+
+<div class="container">
+  <h2>Seção de Produtos</h2>
+  <p>Explore nossos produtos incríveis.</p>
+</div>
+
+______________________________
+
+<span> - Contém conteúdo adicional ou complementar, mas que não é essencial para a compreensão do documento, como uma barra lateral ou uma nota.
+
+Exemplo:
+
+<p>Este é um <span style="color: red;">texto destacado</span> no meio do parágrafo.</p>
+
+______________________________
+
+<address> - Fornece informações de contato para um autor ou proprietário de um documento. Geralmente, é formatado em um estilo específico.
+
+Exemplo:
+
+<address>
+  <p>Contate-nos em: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+  <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+</address>
