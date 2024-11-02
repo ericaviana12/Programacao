@@ -1,4 +1,5 @@
-|	: ---	|	: ---	|
+## Organização de Documento
+
 |	Elemento	|	Descrição	|
 |	: ---	|	: ---	|
 |	<!DOCTYPE>	|	Define o tipo de documento, essencial para que o navegador interprete o HTML corretamente. No HTML5, é usado assim:	|
@@ -15,5 +16,3 @@
 |	<link>	|	Usado para vincular arquivos externos, como folhas de estilo (CSS) e ícones.	|
 |	<style>	|	 Define estilos (CSS) internos para a página.	|
 |	<body>	|	O conteúdo visível da página HTML fica dentro da tag <body>.	|
-|	: ---	|	: ---	|
-![image](https://github.com/user-attachments/assets/15d0164c-150d-4204-a6ca-27685b14acfa)
