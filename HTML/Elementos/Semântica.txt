@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Semântica
-______________________________________________________________________
+_______________________________________________________
 
 <bdi> - O elemento <bdi> (Bi-Directional Isolation) isola uma sequência de texto que pode não seguir a direção do texto ao redor. É útil quando você tem texto em direções opostas, como quando se mistura texto em árabe (que é escrito da direita para a esquerda) com texto em inglês.
 
