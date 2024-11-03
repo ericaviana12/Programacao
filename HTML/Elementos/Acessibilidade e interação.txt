@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Acessibilidade e interação
-______________________________________________________________________
+_______________________________________________________
 
 <details> - Cria um elemento que pode ser expandido ou recolhido, geralmente utilizado para mostrar ou ocultar informações adicionais.
 
