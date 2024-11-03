@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Formulários
-______________________________________________________________________
+_______________________________________________________
 
 <form> - Cria um formulário para coleta de dados do usuário. O atributo action especifica o local para onde os dados serão enviados, e method define o método de envio (GET ou POST).
 
