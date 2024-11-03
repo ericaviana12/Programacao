@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Organização de Documento
-______________________________________________________________________
+_______________________________________________________
 
 <!DOCTYPE> - Define o tipo de documento, essencial para que o navegador interprete o HTML corretamente.
 
