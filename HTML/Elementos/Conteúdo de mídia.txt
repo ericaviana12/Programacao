@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Conteúdo de mídia
-______________________________________________________________________
+_______________________________________________________
 
 <img> - Usado para inserir uma imagem na página. Requer o atributo src para especificar o caminho da imagem e alt para fornecer uma descrição.
 
