@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Formatação de texto
-______________________________________________________________________
+_______________________________________________________
 
 <h1> a <h6> - Cabeçalhos de diferentes níveis, de <h1> (mais importante) a <h6> (menos importante).
 
