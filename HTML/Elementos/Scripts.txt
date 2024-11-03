@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Scripts
-______________________________________________________________________
+_______________________________________________________
 
 <script> - Define um bloco de código JavaScript que pode ser executado na página. O atributo src é usado para incluir um arquivo externo.
 
