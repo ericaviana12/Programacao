@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Estrutura de conteúdo
-______________________________________________________________________
+_______________________________________________________
 
 <header> - Define o cabeçalho de uma página ou seção, geralmente contendo o logotipo, título e navegação.
 
