@@ -1,5 +1,5 @@
 Elementos da linguagem HTML - Tabelas
-______________________________________________________________________
+_______________________________________________________
 
 <table> - Cria uma tabela para exibir dados em linhas e colunas.
 
