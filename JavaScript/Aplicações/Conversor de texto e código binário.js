@@ -1,5 +1,5 @@
 /**
- * Conversor de texto em código binário e código binário em texto
+ * Conversor de texto em código binário e vice-versa
  * @author Erica Viana
  */
 
