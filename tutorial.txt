@@ -1,0 +1,38 @@
+GIT e GITHUB
+ 
+Comandos básicos do git:
+
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@email.com"
+git clone url_do_repositório
+git status (verificar o status do repositório local)
+git add . (adiciona ao repositório local)
+git commit -m "Atualização" (Documentar as alterações)
+git push (Enviar ao repositório GitHub)
+git pull (Sincroniza as informações do repositório - recebe atualizações feitas fora da pasta local no PC)
+ 
+---
+
+Gerar token GitHub
+
+1) Settings
+2) Developer Settings
+3) Token classic
+4) Gerar o token selecionando tudo, guardar o token
+
+---
+
+Mandamentos da programação
+
+1) UX (User eXperience) - Desenvolver sempre pensando na experiência do usuário
+
+Dica de vídeo: https://www.youtube.com/watch?v=Z1GNW_woXI0
+
+2) Usar o mínimo possível de código (variáveis, operadores, comparadores, estruturas de controle, etc) para resolver o problema (lembrar do marcapasso)
+
+3) Entender o problema - Não adianta sentar na frente do PC se você não sabe como resolver o problema
+
+Algoritmo ("receita do bolo")
+Conceito: 
+            Variáveis
+Entrada - Processamento - Saída
