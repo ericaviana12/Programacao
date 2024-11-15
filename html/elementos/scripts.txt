@@ -1,0 +1,23 @@
+Elementos da linguagem HTML - Scripts
+_______________________________________________________
+
+<script> - Define um bloco de código JavaScript que pode ser executado na página. O atributo src é usado para incluir um arquivo externo.
+
+Exemplo:
+
+<script>
+  // Este é um código JavaScript embutido
+  console.log("Olá, Mundo!");
+</script>
+
+<script src="script.js"></script>
+
+______________________________
+
+<noscript> - Fornece conteúdo alternativo para navegadores que não suportam ou têm o JavaScript desativado.
+
+Exemplo:
+
+<noscript>
+  <p>Seu navegador não suporta JavaScript ou o JavaScript está desativado.</p>
+</noscript>

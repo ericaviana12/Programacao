@@ -1,0 +1,48 @@
+Pacote / Biblioteca
+
+'Teste' (aspa simples) - Para importação de biblioteca
+"Teste" (aspa duplas) - Para criação de texto
+
+Para importação da biblioteca é necessário que seja a primeira linha do código
+
+Para instalação de biblioteca é necessário utilizar o comando "npm install"
+
+-----
+
+Abaixo algumas bibliotecas
+
+    npm install colors
+Instala a biblioteca para estilizar e colorir texto no terminal, tornando a saída mais visualmente organizada.
+
+    npm install readline-sync
+Instala a biblioteca para entrada de dados de forma síncrona no terminal, permitindo que o programa aguarde a resposta do usuário antes de continuar a execução.
+
+    npm install prompt-sync
+Instala a biblioteca para obter entrada de dados do usuário de forma síncrona, semelhante ao readline-sync, mas com uma sintaxe mais simples.
+
+    npm install axios
+Instala a biblioteca para realizar requisições HTTP, permitindo que o programa envie e receba dados de servidores externos, útil para integrar APIs.
+
+    npm install figlet
+Gera arte de texto em ASCII no terminal. Ótima para adicionar títulos estilizados aos seus programas.
+
+    npm install moment
+Biblioteca para trabalhar com datas e horários. Facilita a manipulação, formatação e exibição de datas.
+
+    npm install chalk
+Parecida com o colors, mas com suporte mais moderno para estilizar e colorir texto no terminal.
+
+    npm install inquirer
+Uma biblioteca para criar interfaces de linha de comando interativas, útil para fazer perguntas ao usuário com opções de múltipla escolha, listas, etc.
+
+    npm install commander
+Facilita a criação de aplicativos de linha de comando, oferecendo uma maneira simples de lidar com argumentos e opções no terminal.
+
+    npm install lodash
+Fornece várias funções utilitárias para manipulação de arrays, objetos e strings, ajudando a simplificar o código.
+
+    npm install ora
+Cria animações de "loading" no terminal, ideal para deixar o visual do programa mais profissional enquanto espera por alguma tarefa.
+
+    npm install boxen
+Cria caixas estilizadas ao redor do texto no terminal, ótimo para destacar informações importantes.

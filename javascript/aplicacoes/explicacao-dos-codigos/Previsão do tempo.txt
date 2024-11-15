@@ -1,0 +1,25 @@
+Explicação detalhada dos principais itens usados
+    
+Bibliotecas:
+
+- axios: 
+    const axios = require('axios'): Importa a biblioteca axios, que permite fazer requisições HTTP para obter dados de APIs de maneira simples e eficiente. Neste caso, é utilizada para acessar a API do OpenWeatherMap.
+- prompt-sync:
+    const prompt = require('prompt-sync')(): Importa a biblioteca prompt-sync e a instancia, permitindo que o programa capture a entrada do usuário de forma síncrona, ou seja, o programa espera até que o usuário digite algo antes de prosseguir.
+
+Estrutura:
+    Variáveis:
+        apiKeyWeather: Armazena a chave da API do OpenWeatherMap.
+        cidade: Variável para armazenar o nome da cidade fornecido pelo usuário.
+    Entrada:
+        Utiliza prompt() da biblioteca prompt-sync para solicitar ao usuário que insira o nome da cidade.
+    Funções auxiliares:
+        formatarDataHora(dataHora):
+        Esta função formata a data e a hora para uma apresentação amigável.
+        const data = new Date(dataHora): Cria um objeto Date com base na string de data e hora fornecida.
+        padStart(2, '0'): Formata o dia, mês, horas e minutos para sempre terem dois dígitos.
+        A função retorna um objeto contendo dataFormatada (formato DD/MM/AAAA) e horaFormatada (formato HH:MM).
+    Processamento:
+        A função obterPrevisao(cidade) faz uma requisição à API usando axios. A URL da API é construída com a cidade e a chave da API.
+    Saída:
+        Os resultados da previsão do tempo são exibidos no console, incluindo a data e a hora formatadas, juntamente com as informações meteorológicas.

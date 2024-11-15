@@ -1,0 +1,248 @@
+Elementos da linguagem HTML - Formatação de texto
+_______________________________________________________
+
+<h1> a <h6> - Cabeçalhos de diferentes níveis, de <h1> (mais importante) a <h6> (menos importante).
+
+Exemplo:
+
+<h1>Título Principal</h1>
+<h2>Subtítulo 1</h2>
+<h3>Subtítulo 2</h3>
+<h4>Subtítulo 3</h4>
+<h5>Subtítulo 4</h5>
+<h6>Subtítulo 5</h6>
+
+______________________________
+
+<p> - Define um parágrafo de texto.
+
+Exemplo:
+
+<p>Este é um parágrafo de exemplo com algumas informações importantes.</p>
+
+______________________________
+
+<hr> - Insere uma linha horizontal (separador) para separar seções.
+
+Exemplo:
+
+<p>Seção 1</p>
+<hr>
+<p>Seção 2</p>
+
+______________________________
+
+<pre> - Exibe texto pré-formatado, preservando espaços e quebras de linha.
+
+Exemplo:
+
+<pre>
+Texto com espaçamento
+    e formatação preservados.
+</pre>
+
+______________________________
+
+<blockquote> - Define uma citação em bloco.
+
+Exemplo:
+
+<blockquote>
+  "A vida é o que acontece quando você está ocupado fazendo outros planos."
+</blockquote>
+
+______________________________
+
+<ol> - Cria uma lista ordenada (numerada).
+
+Exemplo:
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+______________________________
+
+<ul> - Cria uma lista não ordenada (com marcadores).
+
+Exemplo:
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+______________________________
+
+<li> - Define um item de lista, usado dentro de <ol> ou <ul>.
+
+Exemplo:
+
+<ul>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+</ul>
+
+______________________________
+
+<dl> - Cria uma lista de descrição, útil para glossários ou definições.
+
+Exemplo:
+
+<dl>
+  <dt>HTML</dt>
+  <dd>Linguagem de marcação usada para criar páginas web.</dd>
+  <dt>CSS</dt>
+  <dd>Folha de estilos usada para estilizar páginas web.</dd>
+</dl>
+
+______________________________
+
+<dt> - Define um termo dentro de uma lista de descrição.
+
+Exemplo:
+
+<dl>
+  <dt>Termo 1</dt>
+  <dd>Descrição do Termo 1.</dd>
+</dl>
+
+______________________________
+
+<dd> - Define a descrição de um termo em uma lista de descrição.
+
+Exemplo:
+
+<dl>
+  <dt>HTML</dt>
+  <dd>Linguagem de marcação usada para criar páginas web.</dd>
+</dl>
+
+______________________________
+
+<figure> - Agrupa elementos de mídia e legendas, como imagens e legendas.
+
+Exemplo:
+
+<figure>
+  <img src="imagem.jpg" alt="Exemplo de imagem">
+  <figcaption>Legenda da imagem</figcaption>
+</figure>
+
+______________________________
+
+<figcaption> - Define a legenda de um elemento <figure>.
+
+Exemplo:
+
+<figure>
+  <img src="imagem.jpg" alt="Exemplo de imagem">
+  <figcaption>Esta é a legenda da imagem.</figcaption>
+</figure>
+
+______________________________
+
+<a> - Define um link para outra página ou recurso.
+
+Exemplo:
+
+<a href="https://www.exemplo.com">Visite nosso site</a>
+
+______________________________
+
+<strong> - Aplica forte ênfase ao texto, geralmente exibido em negrito.
+
+Exemplo:
+
+<p>Este é um texto com <strong>ênfase forte</strong>.</p>
+
+______________________________
+
+<em> - Aplica ênfase ao texto, geralmente exibido em itálico.
+
+Exemplo:
+
+<p>Este é um texto com <em>ênfase leve</em>.</p>
+
+______________________________
+
+<b> - Exibe o texto em negrito, sem indicar ênfase.
+
+Exemplo:
+
+<p>Este é um texto em <b>negrito</b>.</p>
+
+______________________________
+
+<i> - Exibe o texto em itálico, sem indicar ênfase.
+
+Exemplo:
+
+<p>Este é um texto em <i>itálico</i>.</p>
+
+______________________________
+
+<u> - Sublinha o texto.
+
+Exemplo:
+
+<p>Este é um texto <u>sublinhado</u>.</p>
+
+______________________________
+
+<small> - Exibe o texto em tamanho menor.
+
+Exemplo:
+
+<p>Texto normal <small>texto menor</small>.</p>
+
+______________________________
+
+<mark> - Destaca o texto, geralmente usado para indicar partes importantes ou relevantes com um fundo colorido (tipo marcador de texto).
+
+Exemplo:
+
+<p>O <mark>produto</mark> estará em promoção esta semana!</p>
+
+______________________________
+
+<del> - Indica texto deletado ou riscado.
+
+Exemplo:
+
+<p>Este é um texto <del>riscado</del>.</p>
+
+______________________________
+
+<ins> - Indica texto inserido, geralmente com sublinhado.
+
+Exemplo:
+
+<p>Este é um texto <ins>adicionado</ins>.</p>
+
+______________________________
+
+<sub> - Exibe o texto em subscrito.
+
+Exemplo:
+
+<p>H<sub>2</sub>O é a fórmula da água.</p>
+
+______________________________
+
+<sup> - Exibe o texto em sobrescrito.
+
+Exemplo:
+
+<p>x<sup>2</sup> é x ao quadrado.</p>
+
+______________________________
+
+<br> - Insere uma quebra de linha.
+
+Exemplo:
+
+<p>Linha 1<br>Linha 2</p>

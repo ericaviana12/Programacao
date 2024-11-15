@@ -1,0 +1,160 @@
+Elementos da linguagem HTML - Formulários
+_______________________________________________________
+
+<form> - Cria um formulário para coleta de dados do usuário. O atributo action especifica o local para onde os dados serão enviados, e method define o método de envio (GET ou POST).
+
+Exemplo:
+
+<form action="/enviar-dados" method="POST">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome">
+  <input type="submit" value="Enviar">
+</form>
+
+______________________________
+
+<input> - Cria campos de entrada de dados, como texto, senhas, botões de envio, etc. O tipo de entrada é definido pelo atributo type.
+
+Exemplo:
+
+<input type="text" name="nome" placeholder="Digite seu nome">
+<input type="password" name="senha" placeholder="Digite sua senha">
+<input type="submit" value="Enviar">
+
+______________________________
+
+<textarea> - Cria uma área de texto para a entrada de várias linhas de texto.
+
+Exemplo:
+
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Escreva sua mensagem aqui"></textarea>
+
+______________________________
+
+<button> - Define um botão, que pode ser usado para envio de formulário ou para outras ações, como disparar scripts JavaScript.
+
+Exemplo:
+
+<button type="submit">Enviar</button>
+<button type="button" onclick="alert('Clique detectado')">Clique Aqui</button>
+
+______________________________
+
+<select> - Cria um menu suspenso com opções. Cada opção é definida por um elemento <option>.
+
+Exemplo:
+
+<label for="pais">País:</label>
+<select id="pais" name="pais">
+  <option value="brasil">Brasil</option>
+  <option value="portugal">Portugal</option>
+</select>
+
+______________________________
+
+<option> - Define uma opção dentro de um menu suspenso <select>. Pode incluir o atributo selected para marcar a opção padrão.
+
+Exemplo:
+
+<select name="cor">
+  <option value="vermelho">Vermelho</option>
+  <option value="azul" selected>Azul</option>
+  <option value="verde">Verde</option>
+</select>
+
+______________________________
+
+<optgroup> - Agrupa opções dentro de um menu suspenso <select>, permitindo categorização.
+
+Exemplo:
+
+<select name="carro">
+  <optgroup label="Sedans">
+    <option value="civic">Honda Civic</option>
+    <option value="corolla">Toyota Corolla</option>
+  </optgroup>
+  <optgroup label="SUVs">
+    <option value="hrv">Honda HR-V</option>
+    <option value="rav4">Toyota RAV4</option>
+  </optgroup>
+</select>
+
+______________________________
+
+<label> - Define rótulos para elementos de formulário, tornando-os mais acessíveis. O atributo for associa o rótulo ao elemento de entrada.
+
+Exemplo:
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email">
+
+______________________________
+
+<fieldset> - Agrupa campos do formulário em uma seção, geralmente com uma borda ao redor.
+
+Exemplo:
+
+<fieldset>
+  <legend>Informações Pessoais</legend>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome">
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email">
+</fieldset>
+
+______________________________
+
+<legend> - Fornece uma legenda para um <fieldset>, ajudando a descrever o grupo de campos.
+
+Exemplo:
+
+<fieldset>
+  <legend>Informações de Contato</legend>
+  <label for="telefone">Telefone:</label>
+  <input type="tel" id="telefone" name="telefone">
+</fieldset>
+
+______________________________
+
+<datalist> - Define uma lista de opções predefinidas para um campo <input>, ajudando o usuário com sugestões de preenchimento.
+
+Exemplo:
+
+<label for="cidade">Cidade:</label>
+<input list="cidades" id="cidade" name="cidade">
+<datalist id="cidades">
+  <option value="São Paulo">
+  <option value="Rio de Janeiro">
+  <option value="Belo Horizonte">
+</datalist>
+
+______________________________
+
+<output> - Exibe o resultado de um cálculo ou outra ação do usuário.
+
+Exemplo:
+
+<form oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+  <input type="number" id="valor1" name="valor1"> +
+  <input type="number" id="valor2" name="valor2"> =
+  <output name="resultado" for="valor1 valor2">0</output>
+</form>
+
+______________________________
+
+<progress> - Exibe o progresso de uma tarefa, como o download de um arquivo. O atributo value representa o progresso atual, e max o valor total.
+
+Exemplo:
+
+<label for="progresso">Progresso do Download:</label>
+<progress id="progresso" value="70" max="100"></progress>
+
+______________________________
+
+<meter> - Representa uma medição em uma faixa definida, como um nível de bateria. O valor deve estar entre min e max.
+
+Exemplo:
+
+<label for="nivel">Nível de Bateria:</label>
+<meter id="nivel" value="0.6" min="0" max="1">60%</meter>

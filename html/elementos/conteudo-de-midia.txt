@@ -1,0 +1,89 @@
+Elementos da linguagem HTML - Conteúdo de mídia
+_______________________________________________________
+
+<img> - Usado para inserir uma imagem na página. Requer o atributo src para especificar o caminho da imagem e alt para fornecer uma descrição.
+
+Exemplo:
+
+<img src="imagem.jpg" alt="Descrição da imagem">
+
+______________________________
+
+<audio> - Incorpora áudio na página. Pode incluir controles de reprodução usando o atributo controls.
+
+Exemplo:
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+
+______________________________
+
+<video> - Incorpora vídeo na página. Também pode incluir controles de reprodução.
+
+Exemplo:
+
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+______________________________
+
+<source> - Define fontes alternativas para <audio> e <video>, permitindo que o navegador escolha o formato compatível.
+
+Exemplo:
+
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogv" type="video/ogg">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+______________________________
+
+<track> - Adiciona faixas de legendas, descrições ou capítulos para vídeos. Pode ser configurado com o atributo kind para definir o tipo de faixa, como subtitles para legendas.
+
+Exemplo:
+
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <track src="legendas.vtt" kind="subtitles" srclang="pt" label="Português">
+</video>
+
+______________________________
+
+<iframe> - Incorpora outro documento ou conteúdo, como formulários, vídeos do YouTube ou mapas, na página.
+
+Exemplo:
+
+<iframe src="https://www.youtube.com/embed/video_id" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+
+______________________________
+
+<embed> -  Incorpora conteúdo externo diretamente na página, como documentos PDF ou plugins. É menos usado hoje em dia, mas ainda suportado para determinados conteúdos.
+
+Exemplo:
+
+<embed src="documento.pdf" type="application/pdf" width="600" height="400">
+
+______________________________
+
+<object> - Incorpora arquivos externos, como um applet ou um documento, podendo incluir parâmetros com o elemento <param>.
+
+Exemplo:
+
+<object data="documento.pdf" type="application/pdf" width="600" height="400">
+  <p>Seu navegador não suporta a visualização de PDFs.</p>
+</object>
+
+______________________________
+
+<param> - Define parâmetros para um elemento <object>. Útil para personalizar conteúdo incorporado.
+
+Exemplo:
+
+<object data="video.swf" type="application/x-shockwave-flash">
+  <param name="autoplay" value="true">
+</object>

@@ -1,0 +1,17 @@
+Explicação detalhada dos principais itens usados
+
+Bibliotecas:
+- readline-sync: Para entrada de dados pelo usuário.
+- colors: Para exibir o resultado com cores.
+
+Estrutura:
+  Variáveis:
+      num1 e num2 armazenam os números inseridos.
+      operacao armazena a operação escolhida (+, -, *, /).
+      resultado armazena o valor final da operação.
+  Entrada:
+      Lê dois números e a operação a ser realizada, utilizando input.question().
+  Processamento:
+      Utiliza a estrutura switch para escolher a operação a ser realizada. Dependendo da escolha do usuário, o cálculo correto é feito e armazenado na variável resultado.
+  Saída:
+      Exibe o resultado em azul com .blue
