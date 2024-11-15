@@ -9,7 +9,7 @@ function ativarAlerta() { // Função que ativa o alerta sonoro, o LED e muda a 
     somAlerta.play() // Inicia a reprodução do som do alarme
     alertaAtivo = true // Define o estado do alerta como ativo
     ligarLed() // Chama a função para ligar o LED do dispositivo
-    alertButton.src = "img/botao_ativo.png" // Altera a imagem para o estado ativo quando o alerta é acionado
+    alertButton.src = "img/botao_ativo.jpg" // Altera a imagem para o estado ativo quando o alerta é acionado
 }
 
 function desativarAlerta() { // Função que desativa o alerta sonoro, o LED e restaura a imagem original do botão
